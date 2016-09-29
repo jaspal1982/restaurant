@@ -11,11 +11,9 @@ height: auto;
 
 }
 
-.container{
-	width: 100%px;
-	height: auto;
-}
-.heading{
+
+
+h1{
 	margin-top: 40px;
 text-align: center;
 font-family: 'Lobster', cursive;
@@ -25,36 +23,36 @@ font-family: 'Varela Round', sans-serif;
 .section{
 
 	
-	height: 170px;
+	min-height: 170px;
    
 	border: 2px solid black;
 	margin-right:15px;
 	margin-left: auto;
 	padding: 35px 20px 25px 20px;
 	position: relative;
-	left:15px;
+	left: 15px;
 	min-width: 300px;
 	margin-bottom: 15px;
 	background-color: #D5D8DC;
+	overflow: hidden;
 }
-.menu{
-	
+.row{
+	width: 100%;
 	margin-top: 60px;
 }
-.menu h4{
-	
+h4{
+	display: inline-block;
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
 	position: absolute;
 	top: 0px;
-	left: 310px;
+	right: 0px;
 	width: 120px;
 	height: 30px;
 	font-size: 125%;
 	padding:5px;
 	text-align: center;
-	font-family: 'Lobster', cursive;
-    font-family: 'Varela Round', sans-serif;
+	font-family: 'Lato', sans-serif;
 
 }
 .sushi{
@@ -83,7 +81,7 @@ background-color: #2E86C1;
 		width:25%;
 	}
 	.col-lg-4{
-		width: 33%
+		width: 33%;
 	}
 	.col-lg-5{
 		width: 41.66%;
@@ -104,7 +102,7 @@ background-color: #2E86C1;
 		width: 83.33%;
 	}
 	.col-lg-11{
-		width:91.66;
+		width:91.66%;
 	}
 	.col-lg-12{
 		width:100%;
@@ -127,7 +125,7 @@ background-color: #2E86C1;
 		width:25%;
 	}
 	.col-md-4{
-		width: 33%
+		width: 33%;
 	}
 	.col-md-5{
 		width: 41.66%;
@@ -148,7 +146,7 @@ background-color: #2E86C1;
 		width: 83.33%;
 	}
 	.col-md-11{
-		width:91.66;
+		width:91.66%;
 	}
 	.col-md-12{
 		width:100%;
